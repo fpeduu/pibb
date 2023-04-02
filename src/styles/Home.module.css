@@ -1,0 +1,106 @@
+.main {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+
+  background-color: var(--primary-background-color);
+
+  width: 100vw;
+  padding: 0.75rem 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 13rem;
+  height: auto;
+
+  margin-right: 0.5rem;
+}
+
+.headerLinks a {
+  font-size: 1.125rem;
+  font-weight: 600;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+  transition-duration: 0.4s;
+}
+
+.headerLinks a + a {
+  margin-left: 1.2rem;
+}
+
+.headerLinks a:hover {
+  color: var(--primary-active-text-color);
+}
+
+.landingContent {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  border-bottom: 1px solid #cccc;
+}
+
+.landingContent > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 65vw;
+  height: inherit;
+
+  padding: 0 16vw;
+}
+
+.landingContent > div span {
+  color: var(--secondary-active-text-color);
+  background-color: var(--secondary-active-background-color);
+
+  padding: 0.1rem 0.4rem;
+
+  border-radius: 6px;
+}
+
+.landingContent > div h1 {
+  font-size: 3.125rem;
+
+  color: var(--primary-text-color);
+}
+
+.landingContent > div p {
+  font-size: 1.125rem;
+  font-weight: 500;
+
+  color: var(--secondary-text-color);
+}
+
+.landingImg {
+  width: 35vw;
+  height: auto;
+}
+
+.landingSquares {
+  margin-top: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 6vw;
+}
